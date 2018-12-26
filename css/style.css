@@ -1,0 +1,24 @@
+body{
+    font-family: 'Varela Round', sans-serif;
+}
+
+.bghead{
+    background-image: url("../images/bg-masthead.jpg");
+    width: auto;
+    height: 657px;
+    background-size: cover;/*à parfaire,joue encore avec mais j'ai sauver avant de changer*/
+}
+nav{
+}
+
+.txt-g{
+    color: darkgray;
+}
+.txt-gb{
+    color: lightgray;
+}
+
+#jb{
+    background: none;
+}
+
