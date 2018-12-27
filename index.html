@@ -7,36 +7,37 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.css">
+    <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
+    <link rel="stylesheet" href="./node_modules/@fortawesome/fontawesome-free/css/all.css">
     <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./VarelaRound-Regular.ttf" rel="stylesheet">
 </head>
 
 <body>
     <header class="bghead">
         <div class="container-fluid">
-            <nav class="row bg-transparent py-4">
-                <div class="col-sm-3 col-6 offset-2 nav-item">
-                    <a class="lead b txt-g" href="">Start bootstrap</a>
+            <nav class="row bg-transparent fixed-top py-4">
+                <div class="col-sm-3 col-6 offset-1 nav-item">
+                    <a class="lead  txt-g" href="">Start bootstrap</a>
                 </div>
-                <div class="col-sm-3 col-6 offset-2">
+                <div class="col-sm-3 col-6 offset-4">
                     <ul class="nav">
                         <li>
                             <div class="nav-item">
-                                <a href="" class="nav-link txt-g">
+                                <a href="#about" class="nav-link txt-g">
                                     About
                                 </a>
                             </div>
                         </li>
                         <li>
                             <div class="nav-item">
-                                <a href="" class="nav-link txt-g">
+                                <a href="#projects" class="nav-link txt-g">
                                     Projects
                                 </a>
                             </div>
                         </li>
                         <li>
                             <div class="nav-item">
-                                <a href="" class="nav-link txt-g">
+                                <a href="#contact" class="nav-link txt-g">
                                     Contact
                                 </a>
                             </div>
@@ -49,7 +50,7 @@
                     <h1 class="txt-wg text-uppercase">grayscale</h1>
                     <p class="txt-g">A free, responsive, one page Bootstrap theme<br>
                         created by Start Bootstrap.</p>
-                    <a class="btn btn-primary btn-lg text-white" href="#" role="button">GET STARDED</a>
+                    <a class="btn btn-lg text-white" href="#" role="button">GET STARDED</a>
                 </div>
             </div>
         </div>
@@ -65,7 +66,7 @@
             <img src="./images/ipad.png" class="img-fluid" alt="">
         </div>
     </section>
-    <section id="projects">
+    <section id="projects" class="pb-5">
         <div class="container">
             <div class="row no-gutters">
                 <div class="col-xl-7 col-lg-6">
@@ -78,8 +79,8 @@
                             licensed. This means you can use it for <br>
                             any project - even commercial projects!<br>
                             Download it, customize it, and publish your website!</p>
-                        </div>
                     </div>
+                </div>
             </div>
             <div class="row no-gutters pt-5">
                 <div class="col-6">
@@ -112,6 +113,71 @@
             </div>
         </div>
     </section>
+    <section id="email" class="bg-foo">
+        <div class="text-center m-5">
+            <i class="far fa-paper-plane text-white mb-2 fa-2x"></i>
+            <h2 class="text-white mb-5">
+                Subscribe to receive uptades!
+            </h2>
+            <form class="form-inline ">
+                <div class="row w-100 justify-content-center">
+                    <input type="text" class="form-control p-4 w-50 mr-3" id="inputPassword2" placeholder="ENTER EMAIL ADDRESS...">
+                    <button type="submit" class="btn btn-primary py-2 px-5">SUBSCRIBE</button>
+                </div>
+            </form>
+        </div>
+        </div>
+    </section>
+    <section id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 mb-3 mb-md-0">
+                    <div class="card text-center">
+                        <div class="card-body">
+                            <i class="fas fa-map-marked-alt"></i>
+                            <h5 class="card-title text-uppercase">address</h5>
+                            <hr>
+                            <p>4923 Market Street Orlando FL</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-3 mb-md-0">
+                    <div class="card text-center">
+                        <div class="card-body">
+                            <i class="fas fa-envelope"></i>
+                            <h5 class="card-title text-uppercase">email</h5>
+                            <hr>
+                            <p class="text-primary">hello@yourdomain.com</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-3 mb-md-0">
+                    <div class="card text-center">
+                        <div class="card-body">
+                            <i class="fas fa-mobile-alt"></i>
+                            <h5 class="card-title text-uppercase">phone</h5>
+                            <hr>
+                            <p>+1 (555) 902-8832</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="contour text-center d-flex justify-content-center">
+                <a href="" class="mx-2">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="" class="mx-2">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="" class="mx-2">
+                    <i class="fab fa-github"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+    <footer class="small bg text-center text-white-50">
+        <div>Copyright © Your website 2018</div>
+    </footer>
 </body>
 
 </html>
