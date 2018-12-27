@@ -1,18 +1,28 @@
+*{
+    box-sizing: border-box;
+}
 body{
-    font-family: 'Varela Round', sans-serif;
+    font-family: 'Varela Round', sans-serif!important;
+    letter-spacing: 0.0625em;
 }
 
 .bghead{
-    background-image: url("../images/bg-masthead.jpg");
+    background-image: -webkit-linear-gradient(top,rgba(255, 255, 255, 0.51),rgb(0, 0, 0, 1)),url("../images/bg-masthead.jpg");
     width: auto;
-    height: 657px;
+    height: 100vh;/*fait correspondre à la taille de l'écran*/
     background-size: cover;/*à parfaire,joue encore avec mais j'ai sauver avant de changer*/
 }
-nav{
-}
+.txt-wg{
+    letter-spacing: 0.8rem;
+    background: -webkit-linear-gradient(rgb(148, 144, 144),rgb(47, 46, 46));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-size: 4rem;
+    line-height: 4rem;
 
+}
 .txt-g{
-    color: darkgray;
+    color: dimgray;
 }
 .txt-gb{
     color: lightgray;
@@ -22,3 +32,46 @@ nav{
     background: none;
 }
 
+span{
+    color: cyan;
+}
+
+header p{
+    font-size: 13px;
+}
+section p{
+    font-size: 13px;
+}
+#projects p{
+    color:rgba(255,255,255,.5);
+}
+.gris{
+    color: rgba(0,0,0,.5)!important;
+}
+
+#about{
+    background: -webkit-linear-gradient(top,rgba(0, 0, 0, 1),rgba(42, 42, 42, 0.219));
+}
+
+section{
+    padding-top: 5rem;
+}
+
+#about .img-fluid{
+    max-width: 75%;
+    height: auto;
+}
+
+.pd{
+    padding-top: 150px;
+}
+.bor{
+    border-left: solid cadetblue 6px;
+    padding-left: 25px;
+}
+
+hr{
+    border-width: 5px;
+    width: 8rem;
+    border-color: lightskyblue;
+}
